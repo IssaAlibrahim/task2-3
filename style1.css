@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(77, 166, 72);
+  font-family: Tahoma, Verdana, sans-serif;
+  overflow-y :scroll ; 
+  color: rgb(152, 154, 156);
+}
+
+.bigdev {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 25%;
+  padding: 10px 40px;
+  margin: 60px 500px;
+  text-align: left;
+}
+
+.bigdev > p {
+  padding: 5px 10px;
+  font-size: 35px;
+}
+
+.bigdev > span {
+  padding: 5px 10px;
+  font-size: 15px;
+}
+.bigdev > input {
+  padding: 5px 10px;
+  margin: 10px;
+  color: rgb(152, 154, 156);
+  border-style: transparent;
+}
+#text {
+  padding: 5px 10px;
+  margin: 10px;
+  color: rgb(152, 154, 156);
+}
+
+.bigdev > button {
+  background-color: rgb(77, 166, 72);
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  margin: 10px;
+  height: 40px;
+}
+
+.textend {
+  text-align: center;
+  padding: 5px 10px;
+  margin: 10px;
+}
